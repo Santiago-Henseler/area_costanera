@@ -2,7 +2,7 @@
 footer {
     width: 100%;
     background: #202020;
-    color: white;
+
     
 }
 
@@ -16,10 +16,12 @@ footer {
 
 .container-body {
     display: flex;
+    text-align: justify !important;
     justify-content: space-between;
 }
 
 .colum1 {
+  
     max-width: 400px;
 }
 
@@ -34,6 +36,7 @@ footer {
     }
 
 .colum2 {
+ 
     max-width: 400px;
 }
 
