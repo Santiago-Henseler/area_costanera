@@ -9,21 +9,20 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  background: #0c0b09;
-  color: #fff;
+    font-family: "Open Sans", sans-serif;
+    background: #f5f2e9;
+    color: #fff;
 }
 
 a {
-  color: #cda45e;
+  color: black;
   text-decoration: none;
 }
 
 p {
     color: black !important;
-    font-family: 'gotham-medium', Arial, Helvetica, sans-serif;
+    font-family: 'gotham-medium', Arial, Helvetica, sans-serif !important;
 }
-
 
 
 a:hover {
@@ -32,13 +31,56 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Arial, Helvetica, sans-serif, serif;
+
+    font-family: 'gotham-medium', Arial, Helvetica, sans-serif !important;
 }
 
 hr {
     height: 1px;
     background-color: olivedrab;
 }
+
+
+.eventos1 {
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+    background-image: url(../../imagenes/fondo_evento1.png);
+    background-color: #f5f2e9;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.eventos2 {
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+    background-image: url(../../imagenes/fondo_evento2.png);
+    background-color: #f5f2e9;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.eventos3 {
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+    background-image: url(../../imagenes/fondo_evento3.png);
+    background-color: #f5f2e9;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -730,21 +772,20 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-    background: url("../../imagenes/home1.jpg") center center;
-    background-size: cover;
+    background-color: #f5f2e9 !important;
     position: relative;
     padding: 80px 0;
 }
 
-.about:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.8);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
+    .about:before {
+        content: "";
+        background: rgba(0, 0, 0, 0.8);
+        background-color: #f5f2e9; position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
 
 .about .about-img {
   position: relative;
@@ -964,46 +1005,6 @@ section {
   font-family: "Poppins", sans-serif;
   color: rgba(255, 255, 255, 0.5);
 }
-
-/*--------------------------------------------------------------
-# Specials
---------------------------------------------------------------*/
-.eventos1 {
-    width: 100%;
-    height: 120vh;
-    overflow: hidden;
-    background: url("../../imagenes/eventos1.jpeg") center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.eventos2 {
-    width: 100%;
-    height: 120vh;
-    overflow: hidden;
-    background: url("../../imagenes/eventos2.jpeg") center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.eventos3 {
-    width: 100%;
-    height: 120vh;
-    overflow: hidden;
-    background: url("../../imagenes/eventos3.jpeg") center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 
 
 
