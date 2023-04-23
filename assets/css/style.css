@@ -25,12 +25,21 @@ p {
 }
 
 
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+    .eventos1, .eventos2 , .eventos3{
+        height: 190vh !important;
+    }
+  
+}
+
+
 a:hover {
   color: #d9ba85;
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
 
     font-family: 'gotham-medium', Arial, Helvetica, sans-serif !important;
 }
@@ -54,6 +63,9 @@ hr {
     background-attachment: fixed;
     
 }
+    .eventos1 .container .card, .eventos2 .container .card, .eventos3 .container .card {
+        opacity: 0.6 !important;
+    }
 
 .eventos2 {
     width: 100%;
