@@ -1,9 +1,3 @@
-/**
-* Template Name: Restaurantly - v3.1.0
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -56,7 +50,6 @@ hr {
     overflow: hidden;
     background-image: url(../../imagenes/fondo_evento1.png);
     background-color: #f5f2e9;
-    background-size: 50% 50%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
