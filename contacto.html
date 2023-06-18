@@ -53,36 +53,36 @@
                         </ul>
                     </li>
                     <!--
-               <li class="dropdown">
-                   <a href="#"><span>Eventos sociales</span> <i class="bi bi-chevron-down"></i></a>
-                   <ul>
-                       <li><a href="#">Casamientos</a></li>
-                       <li><a href="#">Cumpleaños de 15</a></li>
-                       <li><a href="#">Cumpleaños y fiestas</a></li>
-                       <li><a href="#">Fiestas de Egresados</a></li>
-                       <li><a href="#">Aniversarios</a></li>
-                       <li><a href="#">Bautismos</a></li>
-                       <li><a href="#">Bar y Bat Mitzvah</a></li>
-                   </ul>
-               </li>
-               <li class="dropdown">
-                   <a href="#"><span>Eventos corporativos</span> <i class="bi bi-chevron-down"></i></a>
-                   <ul>
-                       <li><a href="#">Lanzamientos</a></li>
-                       <li><a href="#">Fiestas empresariales</a></li>
-                       <li><a href="#">Jornadas laborales</a></li>
-                       <li><a href="#">Capacitaciones</a></li>
-                       <li><a href="#">Aniversarios</a></li>
-                       <li><a href="#">Muestras y exposiciones</a></li>
-                   </ul>
-               </li>
-               <li class="dropdown">
-                   <a href="#"><span>Eventos recreativos</span> <i class="bi bi-chevron-down"></i></a>
-                   <ul>
-                       <li><a href="#">Recitales</a></li>
-                   </ul>
-               </li>
-            -->
+                       <li class="dropdown">
+                           <a href="#"><span>Eventos sociales</span> <i class="bi bi-chevron-down"></i></a>
+                           <ul>
+                               <li><a href="#">Casamientos</a></li>
+                               <li><a href="#">Cumpleaños de 15</a></li>
+                               <li><a href="#">Cumpleaños y fiestas</a></li>
+                               <li><a href="#">Fiestas de Egresados</a></li>
+                               <li><a href="#">Aniversarios</a></li>
+                               <li><a href="#">Bautismos</a></li>
+                               <li><a href="#">Bar y Bat Mitzvah</a></li>
+                           </ul>
+                       </li>
+                       <li class="dropdown">
+                           <a href="#"><span>Eventos corporativos</span> <i class="bi bi-chevron-down"></i></a>
+                           <ul>
+                               <li><a href="#">Lanzamientos</a></li>
+                               <li><a href="#">Fiestas empresariales</a></li>
+                               <li><a href="#">Jornadas laborales</a></li>
+                               <li><a href="#">Capacitaciones</a></li>
+                               <li><a href="#">Aniversarios</a></li>
+                               <li><a href="#">Muestras y exposiciones</a></li>
+                           </ul>
+                       </li>
+                       <li class="dropdown">
+                           <a href="#"><span>Eventos recreativos</span> <i class="bi bi-chevron-down"></i></a>
+                           <ul>
+                               <li><a href="#">Recitales</a></li>
+                           </ul>
+                       </li>
+                    -->
                     <li><a class="nav-link scrollto active" href="contacto.html">Contacto</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -101,7 +101,7 @@
 
                 </div>
 
-           </div>
+            </div>
         </div>
 
     </section><!-- End Hero   -->
@@ -125,14 +125,14 @@
 
     </section>
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact"  style="background-color: #f5f2e9;">
+    <section id="contact" class="contact" style="background-color: #f5f2e9;">
         <div class="container" data-aos="fade-up">
             <div class="section-title">
                 <hr />
                 <p><span style="color:olivedrab !important">E</span>stemos en contacto</p>
             </div>
         </div>
-        
+
 
 
         <div class="container" data-aos="fade-up">
@@ -141,11 +141,11 @@
 
                 <div class="col-lg-8 mt-5 mt-lg-0">
 
-                    <form method="post" role="form" class="php-email-form">
+                    <form  role="form" id="formId" class="php-email-form">
                         <div class="row">
                             <div class="col-md-6 form-group">
-                              <p style="text-align:center;">  <font color="black">Tipo de evento</font></p>
-                                <select name="lenguajes" class="form-control border-light" id="lang">
+                                <p style="text-align:center;">  <font color="black">Tipo de evento</font></p>
+                                <select name="lenguajes" class="form-control border-light" id="tipo-evento">
                                     <option value="Casamientos">Casamientos</option>
                                     <option value="quince">Cumpleaños de 15</option>
                                     <option value="Cumpleaños">Cumpleaños</option>
@@ -155,25 +155,23 @@
                             </div>
                             <div class="col-md-6 form-group mt-3 mt-md-0">
                                 <p style="text-align:center; "><font color="black">Nombre y Apellido</font></p>
-                                <input type="text" class="form-control bg-light border-light" name="nombre" id="nombre" placeholder="" required>
+                                <input type="text" class="form-control bg-light border-light" name="nombre" id="nombre" placeholder="" style="color:black !important" required>
                             </div>
                         </div>
                         <div class="form-group mt-3">
                             <p style="text-align:center; "><font color="black">Cantidad de invitados</font></p>
-                            <input type="text" class="form-control bg-light border-light" name="nombre" id="nombre" placeholder="" required>
+                            <input type="number" class="form-control bg-light border-light" name="cant" id="cant" style="color:black !important" placeholder="" required>
                         </div>
                         <div class="form-group mt-3">
                             <p style="text-align:center; "><font color="black">Aclaraciones</font></p>
-                            <textarea  class="form-control bg-light border-light" name="message" rows="8" placeholder="dejanos tus aclaraciones" required></textarea>
-                        </div>   
-                        <div class="text-center"><button type="submit"  style="background-color:olivedrab;">Enviar mensajes</button></div>
+                            <textarea class="form-control bg-light border-light" name="message" rows="8" style="color:black !important" id="campo1" placeholder="dejanos tus aclaraciones" required></textarea>
+                        </div>
+                        <div class="text-center"><button type="submit" style="background-color:olivedrab;" onclick="enviar_mensaje()">Enviar mensajes</button></div>
                     </form>
 
                 </div>
 
             </div>
-
-
         </div>
     </section><!-- End Contact Section -->
 
@@ -217,7 +215,7 @@
 
                                         <div class="row2">
                                             <img src="imagenes/warap.avif">
-                                            <label><a href="https://api.whatsapp.com/send?phone=541126247777"target="_blank" style="text-decoration:none"><font color="black">+54 11 2624 7777</font></a></label>
+                                            <label><a href="https://api.whatsapp.com/send?phone=541126247777" target="_blank" style="text-decoration:none"><font color="black">+54 11 2624 7777</font></a></label>
                                         </div>
 
                                     </div>
@@ -271,6 +269,7 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/index.js"></script>
 </body>
 
 </html>
