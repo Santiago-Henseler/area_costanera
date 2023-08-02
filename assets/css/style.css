@@ -54,7 +54,7 @@ hr {
     width: 100%;
     height: 130vh;
     overflow: hidden;
-    background-image: url(../../imagenes/fondo_evento1.png);
+    background-image: url(../../fotos/fondo2.jpg);
     background-color: #f5f2e9;
     background-size: 50% 50%;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@ hr {
     width: 100%;
     height: 120vh;
     overflow: hidden;
-    background-image: url(../../imagenes/fondo_evento2.png);
+    background-image: url(../../fotos/fondo1.jpg);
     background-color: #f5f2e9;
     background-size: 50% 50%;
     background-repeat: no-repeat;
@@ -84,7 +84,7 @@ hr {
     width: 100%;
     height: 120vh;
     overflow: hidden;
-    background-image: url(../../imagenes/fondo_evento3.png);
+    background-image: url(../../fotos/fondo3.jpg);
     background-color: #f5f2e9;
     background-size: 50% 50%;
     background-repeat: no-repeat;
